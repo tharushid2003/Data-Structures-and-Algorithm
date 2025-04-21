@@ -7,7 +7,6 @@ package InclassActivity;
 import java.util.LinkedList;
 import java.util.Collection;
 
-
 /**
  *
  * @author tharu
@@ -15,8 +14,8 @@ import java.util.Collection;
 public class LinkedListCollection {
     public LinkedListCollection(){
         Collection c = new LinkedList();
-        c.add(5);
-        c.add(3);
+        c.add(7);
+        c.add(2);
         System.out.println(c.isEmpty());
         System.out.println(c.size());
         System.out.println(c.contains(5));
